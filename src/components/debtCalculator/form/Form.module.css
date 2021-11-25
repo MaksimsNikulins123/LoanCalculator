@@ -1,0 +1,88 @@
+.form { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem 0;
+    max-width: 900px;
+    margin: auto;  
+}
+.form form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* margin-top: 1rem; */
+    padding: 1rem 0;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: 45%;
+    min-width: 350px;
+    max-width: 450px;
+    /* background: rgb(173, 158, 158); */
+}
+.inputs label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    background: rgb(138, 29, 9);
+    color: rgb(202, 183, 104);
+    margin-bottom: 0.1rem;
+}
+.inputs input{
+    height: 20px;
+    background: cornsilk;
+    border: none;
+
+}
+.inputs input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.inputs input[type=number] {
+    -moz-appearance: textfield;
+}
+.button button{
+    width: 100px;
+    height: 36px;
+    border: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    line-height: 36px;
+    border-radius: 2px;
+    background: rgb(129, 10, 10);
+    color: rgb(217, 215, 230);
+    cursor: pointer;
+    
+    
+}
+.button button:hover{
+    background: rgb(167, 43, 43);
+    color: rgb(217, 215, 230);
+}
+.loanType {
+    background: rgb(141, 134, 134);  
+   padding: 0.5rem;
+}
+.loanType span{
+    color: rgb(240, 234, 236);
+    text-transform: uppercase;
+}
+.result{
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+}
+.result thead{
+    background: chocolate;
+    padding: 10px;
+}
+.result tbody{
+    background: rgb(153, 150, 153);
+}
